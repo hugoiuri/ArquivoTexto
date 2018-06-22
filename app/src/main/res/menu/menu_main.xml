@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="none"
+        android:menuCategory="alternative">
+        <item
+            android:id="@+id/mnCorPretoId"
+            android:checkable="false"
+            android:checked="false"
+            android:enabled="true"
+            android:title="Preto"
+            android:visible="true" />
+        <item
+            android:id="@+id/mnCorAzulId"
+            android:checkable="false"
+            android:title="Azul"
+            android:visible="true" />
+        <item
+            android:id="@+id/mnCorVerdeId"
+            android:checkable="false"
+            android:checked="false"
+            android:title="Verde" />
+        <item
+            android:id="@+id/mnCorVermelhoId"
+            android:checkable="false"
+            android:title="Vermelho" />
+    </group>
+    <item
+        android:id="@+id/mnSalvarId"
+        android:icon="@drawable/ic_check_white_24dp"
+        android:title="Salvar"
+        app:showAsAction="always" />
+</menu>
